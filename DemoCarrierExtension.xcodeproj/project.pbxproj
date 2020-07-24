@@ -46,8 +46,6 @@
 		1133E9BC249840530019BB57 /* MyChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1133E9B8249840530019BB57 /* MyChatCell.swift */; };
 		1133E9D4249842580019BB57 /* DID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1133E9D3249842580019BB57 /* DID.swift */; };
 		11D1C54124A35E0000A36932 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1C54024A35DFF00A36932 /* SwiftyJSON.swift */; };
-		11D1C54824A3725A00A36932 /* ElastosCarrierSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D1C54624A3725700A36932 /* ElastosCarrierSDK.framework */; };
-		11D1C54924A3725A00A36932 /* ElastosCarrierSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 11D1C54624A3725700A36932 /* ElastosCarrierSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8C80F8C1CE0C13D9BE4C7F70 /* Pods_DemoCarrierExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7DE5E423DD176F89E921B4 /* Pods_DemoCarrierExtension.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,7 +56,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				11D1C54924A3725A00A36932 /* ElastosCarrierSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,7 +108,6 @@
 		1133E9D22498421B0019BB57 /* DemoCarrierExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoCarrierExtension-Bridging-Header.h"; sourceTree = "<group>"; };
 		1133E9D3249842580019BB57 /* DID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DID.swift; sourceTree = "<group>"; };
 		11D1C54024A35DFF00A36932 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
-		11D1C54624A3725700A36932 /* ElastosCarrierSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ElastosCarrierSDK.framework; sourceTree = "<group>"; };
 		22C1436176308F4F7660EF07 /* Pods-DemoCarrierExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCarrierExtension.release.xcconfig"; path = "Target Support Files/Pods-DemoCarrierExtension/Pods-DemoCarrierExtension.release.xcconfig"; sourceTree = "<group>"; };
 		6F7DE5E423DD176F89E921B4 /* Pods_DemoCarrierExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCarrierExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,7 +117,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11D1C54824A3725A00A36932 /* ElastosCarrierSDK.framework in Frameworks */,
 				8C80F8C1CE0C13D9BE4C7F70 /* Pods_DemoCarrierExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,7 +163,6 @@
 		1133E96C24983F800019BB57 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
-				11D1C54624A3725700A36932 /* ElastosCarrierSDK.framework */,
 				11D1C53F24A35DFF00A36932 /* SwiftyJSON */,
 				1133E97324983F8D0019BB57 /* IQKeyboardManagerSwift */,
 				1133E98A24983F8E0019BB57 /* MBProgressHUD */,
