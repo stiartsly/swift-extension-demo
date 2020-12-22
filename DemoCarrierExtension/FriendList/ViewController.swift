@@ -281,7 +281,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             alert.addAction(AlertAction(title: "拒绝", style: .preferred, handler: { (AlertAction) in
                 do {
                     // 0是接收 -1 是拒绝
-                    try DeviceManager.sharedInstance.carrierExtension.replyFriendInviteRequest(to: eInfo["from"].stringValue, withStatus: -1, "reject", "hello reject")
+                    try DeviceManager.sharedInstance.carrierExtension.replyFriendInviteRequest(to: eInfo["from"].stringValue, withStatus: -1, "reject", nil)
                 } catch {
                     print(error)
                 }
@@ -290,7 +290,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             alert.addAction(AlertAction(title: "接收", style: .normal, handler: { (AlertAction) in
                 do {
                     // 0是接收 -1 是拒绝
-                    try DeviceManager.sharedInstance.carrierExtension.replyFriendInviteRequest(to: eInfo["from"].stringValue, withStatus: 0, nil, "Hello")
+                    try DeviceManager.sharedInstance.carrierExtension.replyFriendInviteRequest(to: eInfo["from"].stringValue, withStatus: 0, nil, "hello")
                 } catch {
                     print(error)
                 }
