@@ -9,6 +9,6 @@ target 'DemoCarrierExtension' do
       pod 'SnapKit', '~> 4.0.0'
       pod 'QRCode', '~> 2.0'
       pod 'SDCAlertView'
-      pod 'ElastosCarrierSDK', '5.6.3'
+      pod 'ElastosCarrierSDK', '6.0.1'
 
 end
